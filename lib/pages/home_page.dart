@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
       drawer: const MyDrawer(),
     );
   }
-//hie 
+//widget for getting usermails 
   Widget _buildUSerList(BuildContext context) {
     return StreamBuilder(
       stream: _chatService.getUsersStream(),
